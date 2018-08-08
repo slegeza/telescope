@@ -7,5 +7,9 @@ instantaneously pointing, the user's input coordinates, and target
 information.  It is still largely a work in progress, but with
 some more work can be used to navigate a telescope.
 
-The coordinates used in the program are hard-coded in on lines 10-11.
+The coordinates used in the program are hard-coded in on lines 10-11. 
+
+To engage target tracking, set "go" to 1 on line 487.  This will prompt
+the user for target coordinates in RA and Dec, which the telescope
+will automatically track and print Hour Angle.
 
